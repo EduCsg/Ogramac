@@ -1,0 +1,89 @@
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.title {
+	font-size: 2rem;
+	color: #333;
+	margin: 10px 0;
+}
+
+.subtitle {
+	font-size: 1.5rem;
+	color: #333;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+	margin: 30px 0;
+	background-color: #e7e7e7;
+	box-shadow: rgba(0, 0, 0, 0.15) 8px 8px 1px;
+	padding: 40px;
+	border-radius: 10px;
+}
+
+.container-info {
+	font-size: 1.2rem;
+	flex-wrap: wrap;
+}
+
+.info-menor {
+	font-size: 1.1rem;
+}
+
+.status {
+	margin-top: 30px;
+}
+
+.texto-centralizado {
+	text-align: center;
+}
+
+.texto-esquerda {
+	text-align: left;
+}
+
+.ativo {
+	background-color: green;
+	padding: 5px;
+	border-radius: 5px;
+	color: white;
+}
+
+.ativo:hover {
+	background-color: rgb(0, 110, 0);
+	cursor: pointer;
+}
+
+.link {
+	cursor: pointer;
+	text-decoration: none;
+	color: rgb(0, 110, 255);
+	padding: 5px;
+	border-radius: 5px;
+	transition: 0.2s;
+	margin-left: 2px;
+}
+
+.link:hover {
+	background-color: rgb(0, 110, 255);
+	color: white;
+}
+
+.container-contato {
+	text-align: center;
+	margin: 40px 0;
+}
+
+.contato {
+	padding: 10px 0;
+	max-width: 700px;
+	line-height: 1.4;
+}
