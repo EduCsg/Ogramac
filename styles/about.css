@@ -1,13 +1,13 @@
 section {
 	text-align: center;
 	margin: 0 auto;
-	margin-top: 140px;
+	margin-top: 240px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	margin-bottom: 140px;
+	padding: 0 40px;
 }
-
 .main-title {
 	background-color: #e7e7e7;
 	padding: 25px;
@@ -22,11 +22,11 @@ section {
 	font-size: 20px;
 	box-shadow: rgba(0, 0, 0, 0.15) 8px 8px 1px;
 	font-family: "Inter", sans-serif;
-	width: 800px;
-	/* border: 2px solid black; */
+	width: 100%;
 	border-radius: 10px;
 	background-color: #e7e7e7;
 	padding: 20px 40px;
+	max-width: 800px;
 }
 
 .box p {

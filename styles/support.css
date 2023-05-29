@@ -2,7 +2,8 @@ section {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 30px;
+	margin-top: 120px;
+	padding: 0 40px;
 }
 
 .title {
@@ -27,6 +28,13 @@ section {
 	box-shadow: rgba(0, 0, 0, 0.15) 8px 8px 1px;
 	padding: 40px;
 	border-radius: 10px;
+	width: 100%;
+	max-width: 800px;
+}
+
+.container p,
+.container h2 {
+	text-align: center;
 }
 
 .container-info {
